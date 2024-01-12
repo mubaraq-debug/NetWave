@@ -26,7 +26,7 @@ function Navbar() {
         <FiMenu size={25} onClick={toggleMenu} />
 
         <div className={`nav-list ${isMenuOpen ? "block" : "hidden"}`}>
-          <ul className="flex flex-col gap-4 md:static absolute top-18 right-0 border mr-5 border-solid px-6 py-2 w-5/12 rounded-md font-semibold bg-textColor text-white">
+          <ul className="flex flex-col gap-4 md:static absolute top-20 right-0 border mr-5 border-solid px-6 py-2 w-10/12 rounded-md font-semibold bg-textColor text-white">
             <li className="cursor-pointer flex items-center gap-3">
               Projects <FiChevronDown />
             </li>
